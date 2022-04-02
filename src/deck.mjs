@@ -27,7 +27,7 @@ const freshDeck = () => {
   let deck = [];
 
   // each uno deck contains four main colors
-  const possibleColors = ["Red", "Green", "Bue", "Yellow"];
+  const possibleColors = ["Red", "Green", "Blue", "Yellow"];
 
   // each uno deck contains cards from 0 to 9 (for a total of 10)
   const possibleNumbers = Array.from(Array(10).keys());
